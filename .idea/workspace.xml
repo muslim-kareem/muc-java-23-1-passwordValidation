@@ -55,7 +55,7 @@
       <recent name="de.neuefische" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PasswordValidationTest.containsUpperCase_whenStringContainsUpperCaseReturnTrue">
+  <component name="RunManager" selected="JUnit.PasswordValidationTest.containsSequential_whenStringContainsSequentialReturnTrue">
     <configuration name="PasswordValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="muc-java-23-1-password-validation" />
       <extension name="coverage">
@@ -87,22 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordValidationTest.checkLength_whenStringSmallerThen8ReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="muc-java-23-1-password-validation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.neuefische.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.neuefische" />
-      <option name="MAIN_CLASS_NAME" value="de.neuefische.PasswordValidationTest" />
-      <option name="METHOD_NAME" value="checkLength_whenStringSmallerThen8ReturnFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PasswordValidationTest.containsNumbers_whenStringContainsNumbersReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="muc-java-23-1-password-validation" />
       <extension name="coverage">
@@ -114,6 +98,22 @@
       <option name="PACKAGE_NAME" value="de.neuefische" />
       <option name="MAIN_CLASS_NAME" value="de.neuefische.PasswordValidationTest" />
       <option name="METHOD_NAME" value="containsNumbers_whenStringContainsNumbersReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordValidationTest.containsSequential_whenStringContainsSequentialReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="muc-java-23-1-password-validation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.PasswordValidationTest" />
+      <option name="METHOD_NAME" value="containsSequential_whenStringContainsSequentialReturnTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PasswordValidationTest.containsSequential_whenStringContainsSequentialReturnTrue" />
         <item itemvalue="JUnit.PasswordValidationTest.containsUpperCase_whenStringContainsUpperCaseReturnTrue" />
         <item itemvalue="JUnit.PasswordValidationTest.containsNumbers_whenStringContainsNumbersReturnTrue" />
         <item itemvalue="JUnit.PasswordValidationTest" />
         <item itemvalue="JUnit.PasswordValidationTest.checkLength_whenStringLongerThen8ReturnTrue" />
-        <item itemvalue="JUnit.PasswordValidationTest.checkLength_whenStringSmallerThen8ReturnFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683643619077</updated>
-      <workItem from="1683643620313" duration="1761000" />
+      <workItem from="1683643620313" duration="2351000" />
     </task>
     <servers />
   </component>
