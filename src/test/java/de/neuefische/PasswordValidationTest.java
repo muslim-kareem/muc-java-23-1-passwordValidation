@@ -44,5 +44,29 @@ class PasswordValidationTest {
         //THEN
         Assertions.assertTrue(actual);
     }
+    @Test
+    public void containsUpperCase_whenStringContainsUpperCaseReturnTrue(){
+        //GIVEN
+        String strToCheck = "lalalallalal  A";
+
+        //WHEN
+        boolean actual = PasswordValidation.containsUpperCase(strToCheck);
+
+        //THEN
+        Assertions.assertTrue(actual);
+    }
+
+    @Test
+    public void containsSequential_whenStringContainsSequentialReturnTrue(){
+        //GIVEN
+        String strToCheck = "lalalallalal  12345";
+
+        //WHEN
+        boolean actual = PasswordValidation.containsSequential(strToCheck);
+
+        //THEN
+        Assertions.assertTrue(actual);
+    }
+
 
 }

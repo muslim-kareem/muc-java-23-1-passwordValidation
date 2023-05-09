@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02f3759c-bb62-4d8b-9abe-7017070fe0c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/PasswordValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/PasswordValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/PasswordValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/PasswordValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/neuefische/PasswordValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/PasswordValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +38,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "muslim-kareem",
+    "git-widget-placeholder": "feat/password-validation",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,7 +55,7 @@
       <recent name="de.neuefische" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PasswordValidationTest.containsNumbers_whenStringContainsNumbersReturnTrue">
+  <component name="RunManager" selected="JUnit.PasswordValidationTest.containsSequential_whenStringContainsSequentialReturnTrue">
     <configuration name="PasswordValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="muc-java-23-1-password-validation" />
       <extension name="coverage">
@@ -92,22 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordValidationTest.checkLength_whenStringSmallerThen8ReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="muc-java-23-1-password-validation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.neuefische.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.neuefische" />
-      <option name="MAIN_CLASS_NAME" value="de.neuefische.PasswordValidationTest" />
-      <option name="METHOD_NAME" value="checkLength_whenStringSmallerThen8ReturnFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PasswordValidationTest.containsNumbers_whenStringContainsNumbersReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="muc-java-23-1-password-validation" />
       <extension name="coverage">
@@ -124,12 +103,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PasswordValidationTest.containsSequential_whenStringContainsSequentialReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="muc-java-23-1-password-validation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.PasswordValidationTest" />
+      <option name="METHOD_NAME" value="containsSequential_whenStringContainsSequentialReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordValidationTest.containsUpperCase_whenStringContainsUpperCaseReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="muc-java-23-1-password-validation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.PasswordValidationTest" />
+      <option name="METHOD_NAME" value="containsUpperCase_whenStringContainsUpperCaseReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PasswordValidationTest.containsSequential_whenStringContainsSequentialReturnTrue" />
+        <item itemvalue="JUnit.PasswordValidationTest.containsUpperCase_whenStringContainsUpperCaseReturnTrue" />
         <item itemvalue="JUnit.PasswordValidationTest.containsNumbers_whenStringContainsNumbersReturnTrue" />
         <item itemvalue="JUnit.PasswordValidationTest" />
         <item itemvalue="JUnit.PasswordValidationTest.checkLength_whenStringLongerThen8ReturnTrue" />
-        <item itemvalue="JUnit.PasswordValidationTest.checkLength_whenStringSmallerThen8ReturnFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683643619077</updated>
-      <workItem from="1683643620313" duration="848000" />
+      <workItem from="1683643620313" duration="2351000" />
     </task>
     <servers />
   </component>
