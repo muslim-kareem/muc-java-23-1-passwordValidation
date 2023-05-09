@@ -6,7 +6,6 @@ public class PasswordValidation {
         return  strToCheck.length() > 8;
     }
 
-
     public static boolean containsNumbers(String strToCheck) {
         char[] c = strToCheck.toCharArray();
         boolean tbr = false;
