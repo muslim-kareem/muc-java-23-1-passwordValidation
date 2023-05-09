@@ -44,5 +44,17 @@ class PasswordValidationTest {
         //THEN
         Assertions.assertTrue(actual);
     }
+    @Test
+    public void containsUpperCase_whenStringContainsUpperCaseReturnTrue(){
+        //GIVEN
+        String strToCheck = "lalalallalal  A";
+
+        //WHEN
+        boolean actual = PasswordValidation.containsUpperCase(strToCheck);
+
+        //THEN
+        Assertions.assertTrue(actual);
+    }
+
 
 }

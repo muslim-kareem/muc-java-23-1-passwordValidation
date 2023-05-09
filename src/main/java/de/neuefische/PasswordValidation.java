@@ -17,4 +17,17 @@ public class PasswordValidation {
         }
         return tbr;
     }
+
+    public static boolean containsUpperCase(String strToCheck) {
+
+        char[] c = strToCheck.toCharArray();
+        boolean tbr = false;
+        for (int i = 0; i < c.length; i++) {
+            if(Character.isUpperCase(c[i])){
+                tbr = true;
+                break;
+            }
+        }
+        return tbr;
+    }
 }
