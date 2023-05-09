@@ -50,12 +50,8 @@ public class PasswordValidation {
         return tbr;
     }
 
-
     public static boolean checkPassword(String strToCheck){
-
         boolean tbr = false;
-
-
         if( checkLength(strToCheck) &&
             containsNumbers(strToCheck) &&
             containsUpperCase(strToCheck) &&
